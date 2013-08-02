@@ -1,13 +1,3 @@
-/* -----------------------------------------------------------------------
-Template Name: Your Inspiration Folio (free version)
-Template URI: http://www.yourinspirationweb.com/en/free-website-template-present-your-portfolio-online-in-a-single-webpage/
-Version: 1.0
-Author: Your Inspiraton Web
-Author URI: http://www.yourinspirationweb.com/
-Description: 
-Based on Blueprint CSS Framework 0.7.1
------------------------------------------------------------------------ */
-
 /***********************************************************************
 ******************* reset.css ******************************************
 ************************************************************************/
@@ -26,7 +16,7 @@ a img { border:none; }
 ******************* typography *****************************************
 ************************************************************************/
 
-/* Titoli */
+/* Font size */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; color:#111;}
 h1 { font-size:120%; line-height:1; margin-bottom:0.5em; }
 h2 { font-size:105%; margin-bottom:0.75em; }
@@ -36,7 +26,7 @@ h5 { font-size:1em; margin-bottom:1.5em; }
 h6 { font-size:1em; line-height:1.25;}
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img { margin:0;}
 
-/* Paragrafi */
+/* Paragraph */
 p { padding: 4px 0 4px 0; line-height: 20px; }
 p img.left { float:left;margin:1.5em 1.5em 1.5em 0;padding:0;}
 p img.right {float:right;margin:1.5em 0 1.5em 1.5em;}
@@ -47,7 +37,7 @@ a:link, a:visited { color: #009; text-decoration: none; }
 a:active, a:hover { color: #621303; text-decoration: underline }
 
 
-/* Formattazione */
+/* Format */
 blockquote {margin:1.5em;color:#666;font-style:italic;}
 strong { font-weight:bold; } 
 em, dfn { font-style:italic; } 
@@ -73,7 +63,7 @@ caption {background:#eee;}
 .bottom { margin-bottom:0; padding-bottom:0; }
 .center { text-align: center; }
 
-/*liste e tabelle*/
+/*list of tabel*/
 li { margin: 0 0 0 25px; line-height: 22px; }
 ul, ol {margin:0 1.5em 1.5em 1.5em; }
 ul { list-style-type: disc; }
@@ -91,15 +81,15 @@ tfoot {font-style:italic;}
 label {vertical-align:middle;font-weight:bold;float:left;width:120px;display:block;clear:left;margin:0;text-align:left;font-size:1em;line-height:1.25;}
 fieldset {padding:1.4em 0 0 0;margin:0;}
 legend {font-weight:bold;font-size:1.2em;}
-input.text, input.title, select,textarea, textarea.text {margin:0.5em 0;color:#5c5c5c;border:none;background-color:#d2d0d1;font-weight:bold;font-style:italic;font-family:"georgia","Helvetica Neue",Arial,Helvetica,sans-serif;}
-input.text:focus,input.title:focus,select:focus,.errorForm:focus,textarea:focus {background-color:#dedddd;}
+input.text, input.title, select,textarea, textarea.text {margin:0.5em 0;color:#5c5c5c;border:none;background-color:#fefcfc;font-weight:bold;font-style:italic;font-family:"georgia","Helvetica Neue",Arial,Helvetica,sans-serif;}
+input.text:focus,input.title:focus,select:focus,.errorForm:focus,textarea:focus {background-color:#fefcfc;}
 input.text, input.title, input.errorForm, textarea.errorForm {width:270px;padding:10px 0 10px 50px;font-size:1.0em;}
 input.title {font-size:1.5em;}
 textarea {width:270px;height:120px;padding:10px 0 10px 50px;font-size:1.0em;}
 .buttonContactForm {width:80px;font-size:1.0em;margin:2em 0;color:#fbfaf5;background-color:#a6a18b;padding:10px;font-size:1.1em;border:none;}
 input.errorForm, textarea.errorForm {background:#fddada;margin:0.5em 0;color:#5c5c5c;font-family:"georgia";font-weight:bold;font-style:italic;border:none;}
 .buttonForm {padding:0;margin:0;}
-.button {width:120px;font-weight:bold;font-size:0.95em;margin:0.5em 0 0.5em 100px;color:#5c5c5c;background-color:#d2d0d1;padding:10px;border:none;font-family:"georgia";}
+.button {width:120px;font-weight:bold;font-size:0.95em;margin:0.5em 0 0.5em 100px;color:#5c5c5c;background-color:#fefcfc;padding:10px;border:none;font-family:"georgia";}
 
 .download {width:215px;height:206px;position:fixed;top:0px;left:0px;z-index:110;}
 /*******************************************************************************
@@ -131,7 +121,7 @@ ul#nav li a:hover,ul#nav li a:active {color:#a61607;text-decoration:none;}
 /*************************************************
 /*about*/
 /*************************************************/
-.about {margin:65px 0 0 0;background:#eaeaea;width:660px!important;border-top:20px solid #d2d1d1;border-left:20px solid #d2d1d1;border-right:20px solid #d2d1d1;height:auto!important;height:310px;min-height:310px;}
+.about {margin:45px 0 0 0;background:#eaeaea;width:660px!important;border-top:20px solid #d2d1d1;border-left:20px solid #d2d1d1;border-right:20px solid #d2d1d1;height:auto!important;height:310px;min-height:310px;}
 .about-bottom-bg {background:#eaeaea url('../images/bg/arrow2.png') top center no-repeat;width:700px;height:170px;padding:0 0 150px 0;}
 .container-about {padding:15px 0 30px 30px;}
 .container-about p span {color:#901003;}
@@ -140,21 +130,38 @@ img.avatar {margin:84px 0 0 30px;}
 /*end about*/
 
 /*************************************************
-/*portfolio page*/
+/*gallery page*/
 /*************************************************/
-.portfolio {margin:65px 0 0 0;background:#eaeaea;width:660px!important;border-top:20px solid #fefcfc;border-left:20px solid #fefcfc;border-right:20px solid #fefcfc;height:auto!important;height:310px;min-height:310px;}
-.portfolio-bottom-bg {background:#eaeaea url('../images/bg/arrow1.png') top center no-repeat;width:700px;height:170px;padding:0 0 150px 0;}
-.container-portfolio {padding:15px 0 30px 30px;}
-.portfolio-quote {background:#eaeaea url('../images/bg/quote.jpg') 0px 30px no-repeat;padding:45px 0 30px 50px;}
+.gallery {margin:75px 0 0 0;background:#eaeaea;width:660px!important;border-top:20px solid #fefcfc;border-left:20px solid #fefcfc;border-right:20px solid #fefcfc;height:auto!important;height:310px;min-height:310px;}
+.gallery-bottom-bg {background:#eaeaea url('../images/bg/arrow1.png') top center no-repeat;width:700px;height:170px;padding:0 0 150px 0;}
+.container-gallery {padding:15px 0 30px 30px;}
+.gallery-quote {background:#eaeaea url('../images/bg/quote.jpg') 0px 30px no-repeat;padding:45px 0 30px 50px;}
 .photo a:link img,.photo a:visited img {margin:1em 0.5em;background:#fff;padding:0.5em;border:1px solid #eaeaea;float:left;}
 .photo a:hover img,.photo a:active img {border:1px solid #999;background:#fff;}
-/*end portfolio*/
+/*end gallery*/
+
+/*************************************************
+/*experience*/
+/*************************************************/
+.experience {margin:65px 0 0 0;background:#eaeaea;width:660px!important;border-top:20px solid #d2d1d1;border-left:20px solid #d2d1d1;border-right:20px solid #d2d1d1;height:auto!important;height:310px;min-height:310px;}
+.experience-bottom-bg {background:#eaeaea url('../images/bg/arrow2.png') top center no-repeat;width:700px;height:170px;padding:0 0 150px 0;}
+.container-experience {padding:15px 0 30px 30px;}
+.experience-quote {background:#eaeaea url('../images/bg/quote.jpg') 0px 30px no-repeat;padding:45px 0 30px 50px;}
+.photo a:link img,.photo a:visited img {margin:1em 0.5em;background:#fff;padding:0.5em;border:1px solid #eaeaea;float:left;}
+.photo a:hover img,.photo a:active img {border:1px solid #999;background:#fff;}
+
+.container-experience {padding:15px 0 30px 30px;}
+.container-experience p span {color:#901003;}
+.avatar-image,.contact-info {width:180px!important;}
+img.avatar {margin:84px 0 0 30px;}
+/*end experience*/
+
 
 /*************************************************
 /*contact page*/
 /*************************************************/
-.contact {margin:65px 0 0 0;background:#eaeaea;width:660px!important;border-top:20px solid #d2d1d1;border-left:20px solid #d2d1d1;border-right:20px solid #d2d1d1;height:auto!important;height:310px;min-height:310px;}
-.contact-bottom-bg {background:#eaeaea url('../images/bg/arrow2.png') top center no-repeat;width:700px;height:170px;padding:0 0 150px 0;}
+.contact {margin:50px 0 0 0;background:#eaeaea;width:660px!important;border-top:20px solid #fefcfc;border-left:20px solid #fefcfc;border-right:20px solid #fefcfc;height:auto!important;height:310px;min-height:310px;}
+.contact-bottom-bg {background:#eaeaea url('../images/bg/arrow1.png') top center no-repeat;width:700px;height:170px;padding:0 0 150px 0;}
 .container-contact {padding:15px 0 30px 30px;}
 .name {background:url('../images/bg/name.png') no-repeat 10px 0px;}
 .mail {background:url('../images/bg/email.png') no-repeat 10px 0px;}

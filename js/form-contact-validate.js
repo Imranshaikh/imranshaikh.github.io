@@ -1,7 +1,7 @@
 jQuery(document).ready(function(){
 		
 		jQuery("<img>")
-        .attr("src","/images/clear.gif")
+        .attr("src","images/clear.gif")
         .prependTo('body');
         
         jQuery('<div></div>')
